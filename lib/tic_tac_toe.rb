@@ -26,7 +26,7 @@ end
 
 #move
 def move(board, index, token)
-    @board[] = token
+    board[index] = token
   end
 
 #position_taken?
